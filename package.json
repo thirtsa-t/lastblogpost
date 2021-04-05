@@ -1,0 +1,40 @@
+{
+  "name": "blogpost_api",
+  "version": "1.0.0",
+  "description": "this blogpost will be concerned about some topics you can discuss on",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "dev-test",
+    "dev-start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirtsa-t/blogpost.git"
+  },
+  "author": "thirtsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thirtsa-t/blogpost/issues"
+  },
+  "homepage": "https://github.com/thirtsa-t/blogpost#readme",
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.12.10",
+    "babel-core": "^6.26.3",
+    "babel-node": "0.0.1-security",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7"
+  }
+}
